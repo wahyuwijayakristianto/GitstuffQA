@@ -14,6 +14,7 @@ public class MyStepDefinations {
         @Given("^User is on NetBanking landing page$")
         public void user_is_on_netbanking_landing_page() throws Throwable {
                 System.out.println("navigated to login url");
+                System.out.println("testtt");
 
         }
 

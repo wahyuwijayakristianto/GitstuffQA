@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e29d218-c4a5-4fe8-8a0c-9f0dbf40c32a" name="Changes" comment="" />
+    <list default="true" id="5e29d218-c4a5-4fe8-8a0c-9f0dbf40c32a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../CucumberProjects/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberProjects/src/test/java/stepDefinations/MyStepDefinations.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CucumberProjects/src/test/java/stepDefinations/MyStepDefinations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/alpha/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/alpha/Demo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,10 +21,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2BphPv5KgqBII34cmm0LfD0XInq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,8 +37,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Work QA Engineer/apache-log4j-2.18.0-bin/log4j-api-2.18.0.jar",
-    "project.structure.last.edited": "Libraries",
+    "last_opened_file_path": "C:/Users/Wahyu/githubstuff/Log4jTutorial",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
@@ -44,6 +52,8 @@
   </component>
   <component name="RunManager">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_111\jre" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="alpha.Demo" />
       <module name="Log4jTutorial" />
       <extension name="coverage">
