@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="Testng.Listeners"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="first test">
+        <groups>
+            <run>
+                <include name="Smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="Testng.day1">
+                <methods>
+                    <include name="demo"/>
+                    <exclude name="SecondTest"/>
+                </methods>
+            </class>
+            <class name="Testng.BeforeAfterTest"/>
+            <class name="Testng.day2">
+                <methods>
+                    <include name="good"/>
+                </methods>
+            </class>
+            <class name="Testng.day3">
+                <methods>
+                    <exclude name="Mobile.*"/>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+
+    <test name="second test">
+        <classes>
+            <class name="Testng.day3"/>
+        </classes>
+    </test>
+</suite>

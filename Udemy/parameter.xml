@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="6">
+    <listeners>
+        <listener class-name="Testng.Listeners"/>
+    </listeners>
+    <test verbose="2" name="first test">
+        <parameter name="URL" value="google.com"/>
+        <classes>
+            <class name="Testng.day1">
+            </class>
+        </classes>
+
+    </test>
+
+    <test name="second test">
+        <parameter name="URL" value="facebook.com"/>
+        <classes>
+            <class name="Testng.day3"/>
+        </classes>
+    </test>
+</suite>

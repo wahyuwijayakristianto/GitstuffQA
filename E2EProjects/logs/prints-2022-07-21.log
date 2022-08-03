@@ -1,0 +1,9 @@
+17:10:14.342 [TestNG-tests-1] INFO  Academy.Base - login start
+17:10:18.570 [TestNG-tests-1] INFO  Academy.Base - validate start
+17:10:20.042 [TestNG-tests-1] INFO  Academy.Base - login success
+17:10:20.680 [TestNG-tests-1] INFO  Academy.Base - login closes
+17:10:20.898 [TestNG-tests-1] INFO  Academy.Base - validate close
+17:11:06.547 [main] INFO  Academy.Base - login start
+17:11:11.714 [main] INFO  Academy.Base - login success
+17:11:12.276 [main] INFO  Academy.Base - login closes
+17:11:42.382 [main] INFO  Academy.Base - validate start

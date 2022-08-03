@@ -1,0 +1,9 @@
+15:51:54.542 [main] INFO  Academy.Base - validate close
+17:32:09.410 [main] INFO  Academy.Base - login start
+17:32:14.024 [main] INFO  Academy.Base - validate start
+17:32:15.665 [main] INFO  Academy.Base - login success
+17:32:17.214 [main] INFO  Academy.Base - validate success
+17:32:17.513 [main] INFO  Academy.Base - login closes
+17:32:18.044 [main] INFO  Academy.Base - validate close
+17:37:38.304 [main] INFO  Academy.Base - login start
+17:37:41.959 [main] INFO  Academy.Base - validate start

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="6" parallel="tests" name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Testng.Listeners"/>
+  </listeners>
+  <test thread-count="6" parallel="tests" name="first test(failed)">
+    <parameter name="URL" value="google.com"/>
+    <classes>
+      <class name="Testng.day1">
+        <methods>
+          <include name="demo" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Testng.day1 -->
+    </classes>
+  </test> <!-- first test(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
